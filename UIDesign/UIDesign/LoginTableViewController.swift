@@ -32,6 +32,8 @@ class LoginTableViewController: UITableViewController {
 
     
     @IBAction func loginTap(_ sender: Any) {
-      
+      let namestoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = namestoryboard.instantiateViewController(withIdentifier: "SignupTableViewController") as! SignupTableViewController
+        self.navigationController!.pushViewController(vc, animated: true)
     }
 }
