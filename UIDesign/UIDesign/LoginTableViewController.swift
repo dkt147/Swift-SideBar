@@ -32,6 +32,6 @@ class LoginTableViewController: UITableViewController {
 
     
     @IBAction func loginTap(_ sender: Any) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "signup") as! SignupTableViewController
+      
     }
 }
